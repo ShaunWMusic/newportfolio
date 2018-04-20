@@ -85,6 +85,9 @@ body {
   @media(max-width: 1120px) {
     width: 100%;
   }
+  @media(max-width: 480px) {
+    max-height: 20rem;
+  }
 }
 
 .general-information {
