@@ -3,6 +3,10 @@
 
 module.exports = function(environment) {
   let ENV = {
+    // ...
+     'ember-bulma': {
+       except: ['bulma-tag'] // excludes `bulma-tag`
+     },
     modulePrefix: 'newportfolio',
     environment,
     rootURL: '/',
